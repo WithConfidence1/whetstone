@@ -25,7 +25,81 @@ Mid-run, Taylor also stress-tested the skill itself (does the whetstone metaphor
 
 ## Compiled prompt (as read back)
 
-The full compiled prompt is the Charter Session prompt: objective (co-creation session ending in a first-principles charter for an AI-first writing platform, landscape survey inside, beachhead question settled in-session), context (the eight steel points above), do not (no building, no generic essay, no feature list, no Cursor paradigms, no AI-does-the-writing, survey never votes), done means (attention test, ceiling test), deliver as (live session, then one markdown charter, saved where Taylor directs).
+```
+# Charter Session: The AI-First Writing Platform
+
+## Objective
+
+Run a co-creation session with Taylor and end it holding a first-principles
+charter for an AI-first writing platform built for his personal use. The
+charter states, as principles, what writing with an AI actually is at its
+highest ceiling, and what this platform must therefore be. Work one topic at
+a time, conversationally; the charter is written together, not delivered to
+him. Inside the session, survey the existing landscape of writing tools
+(Word, WordPerfect, and the current AI-adjacent writing tools; identify the
+one he half-remembers as "omni something") as fuel for the conversation. The
+session must also settle its own open question: everything he writes is the
+goal, and whether legal briefs are the beachhead build is decided here, not
+assumed.
+
+## Context
+
+- Taylor writes for a living and is extremely well read: thousands of books.
+  He knows good when he sees it. Do not explain writing to him; think with
+  him.
+- His theory of writing, which the charter builds on: writing is about the
+  audience. Success is the audience understanding easily, staying
+  interested, and landing on "yeah, I got it" or an epiphany. This holds
+  from a jury to a judge to YouTube; only the payload changes.
+- The wound driving the project: today's tools are context-blind and the AI
+  lives outside the page. The document knows nothing (not the case, not the
+  audience, not what came before), so he smuggles context back and forth
+  between chat windows and the page all day.
+- The stance: this is not a human assisted by AI and not an AI supervised by
+  a human. It is me + AI as a third thing neither could be alone. Taylor's
+  attention and cognition are the scarcest resource in the room and are
+  spent on what the writing should be, never on plumbing.
+- Ideas are source-blind: never weigh an idea by whether it came from him or
+  from the AI. The only axis is how good the work can become.
+- The ambition is ceiling, not convenience: there is undiscovered magic in
+  writing with an AI, interaction patterns nobody has found yet. Hunt those.
+  Fixing known pains is the floor, not the point.
+- Cursor is an existence proof and nothing more: it proves a craft can be
+  re-founded AI-first. Borrow no paradigm from it.
+
+## Do not
+
+- Do not build anything: no code, no prototype, no tech-stack talk. Building
+  gets its own sharpened prompt after the charter exists.
+- Do not produce a generic essay about AI writing tools. Every principle
+  must be testable against Taylor's actual writing life: trial work, content
+  scripts, vault thinking, personal writing.
+- Do not produce a feature list. A laundry list of good ideas is failure
+  even if every idea is good. Principles must be able to reject features.
+- Do not default to a chat-sidebar paradigm or import Cursor conventions.
+- If the AI ends up doing the writing, the charter has failed its own
+  premise: the platform exists so the human does more.
+- The survey informs, it never votes. Nothing an incumbent tool does carries
+  authority over these principles.
+
+## Done means
+
+Judge every principle, and the finished charter, by exactly two tests:
+
+1. The attention test: the principle routes Taylor's attention toward what
+   the thing should be (meaning, audience, epiphany) and never toward
+   plumbing (moving text, hauling context, operating the tool).
+2. The ceiling test: the principle raises how good the finished writing can
+   become at its best. Source is irrelevant. Ease and speed count only when
+   they buy ceiling.
+
+## Deliver as
+
+A live back-and-forth session first, one topic per message, then the
+charter as a single markdown document, drafted together and saved where
+Taylor directs at the end. Nothing published, nothing built, nothing sent
+anywhere.
+```
 
 ## Score and outcome
 

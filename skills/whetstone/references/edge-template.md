@@ -3,8 +3,8 @@
 The compiled prompt is written in second person, imperative voice, ready
 to paste into a fresh session with zero surrounding explanation. Use
 exactly these sections, in this order. Omit a section only if the
-interview proved it truly empty, and say so is not allowed silently:
-an empty section means the interview is not done.
+interview proved it truly empty, and say so explicitly: a silently
+omitted section means the interview is not done.
 
 ## Objective
 
