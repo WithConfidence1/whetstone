@@ -27,16 +27,18 @@ Pick exactly one, in this order of precedence:
    sibling folders. This is an isolation guarantee, not a convenience.
    If the named path does not exist, say so and ask for the right one.
 2. **Vault mode**: the working directory is inside a vault governed by a
-   CLAUDE.md. Read that CLAUDE.md first and let it govern. Follow its
-   map to the folders the ask implicates, and obey its physics exactly.
-   In Vault 8.0 the map is the numbered folders and the physics are the
-   numbered laws under them; `71_The Orrery` is sealed and stays unread
-   unless Taylor names it.
-   Do not run `.machine/vault6.py` or its MCP tools. That compiler
-   predates the V8 reorganization and indexes folders that no longer
-   exist, and `.machine/README-V8.md` says to leave it alone until
-   Taylor re-points or retires it. If a vault's CLAUDE.md does name a
-   working compiler, use it as that CLAUDE.md directs.
+   CLAUDE.md. Read that CLAUDE.md first and let it govern. The live vault is
+   `~/Vault 9.0`: read `CLAUDE.md`, then `MANIFEST.md`, then only the pillar
+   door the ask implicates (`10_Knowledge/000 Knowledge Core.md`,
+   `20_Execution/000 Execution Core.md`, `30_Completion/000 Desk.md`,
+   `40_Voice/000 Voice Core.md`), and follow the paths those name. Obey its
+   physics exactly. Never load `90_Archive`, `00_Inbox`, or
+   `30_Completion/Matters` unless the ask names a note there. The desk is
+   compiled, never edited by hand.
+   `~/Vault 8.0` is retired (marker at its root) and is the archive
+   generation: read it only when Taylor names it, never write to it. Its
+   `.machine` compiler is retired; do not run it. `71_The Orrery` lives only
+   in Vault 8 and stays sealed unless Taylor names it.
 3. **Repo mode**: any other git project. Sweep README, CLAUDE.md, the
    directory layout, and recent git log. Read files that the ask
    plainly implicates; do not read the whole tree.
@@ -64,12 +66,12 @@ question: fire here or hand it over.
 
 Either way, save the brief first:
 
-- Inside Vault 8.0: the brief gets no folder of its own, because V8
-  physics forbids a separate outputs folder. If the ask belongs to a
-  live matter or project, save it beside that work inside `10_Work/`,
-  in the case or project folder itself. Otherwise save to `00_Inbox/`,
-  the single airlock. Name it `YYYY-MM-DD <short-slug>.md`. Never write
-  to the vault root.
+- Inside Vault 9.0: the brief gets no folder of its own; there is no
+  outputs folder. If the ask belongs to a live matter, save it in
+  `30_Completion/Matters/<Matter>/`; if to a project, beside its status
+  note's home under `30_Completion/`. Otherwise save to `00_Inbox/`, the
+  single airlock. Name it `YYYY-MM-DD <short-slug>.md`. Never write to the
+  vault root.
 - Inside any other git repo: `docs/whetstone/YYYY-MM-DD-<short-slug>.md`
 - Anywhere else: do not write to disk unbidden; hand the prompt back and
   save it only where Taylor says.
@@ -83,5 +85,5 @@ more.
 |---------|---------|
 | "Useful context sits just outside the pointed path" | The point of pointed mode is that it stays outside. Ask Taylor if he wants it in. |
 | "I will skim the whole vault to be thorough" | Modes exist because thorough is not the same as safe. Follow the mode. |
-| "There is a compiler in `.machine`, I should run it" | Read `.machine/README-V8.md` first. Vault 8.0's compiler is stale and indexes folders that no longer exist. |
+| "There is a compiler in `.machine`, I should run it" | That is Vault 8, which is retired. Vault 9 has no compiler; its doors are compiled by ritual (`30_Completion/Compile the Desk.md`). |
 | "The context answers everything, skip the interview" | Context cannot state what he wants ground off. Ask at least that. |
